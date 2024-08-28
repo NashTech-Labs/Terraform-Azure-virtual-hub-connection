@@ -44,7 +44,10 @@ Add your desired inputs to the file in the following format:
 
 ```ruby
 connection_name      = "" 
-etc
+vhub_id              = ""
+remote_vnetwork_id   = ""
+internet_security_enabled = ""
+routing                   = ""
 ```
 Review the changes that Terraform will make to your Azure resources.
 
