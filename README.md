@@ -43,10 +43,8 @@ nano virtual-hub-connection.tfvars
 Add your desired inputs to the file in the following format:
 
 ```ruby
-vnet_name            = ""
-vwan                 = ""
-virtual_hub          = ""
 connection_name      = "" 
+etc
 ```
 Review the changes that Terraform will make to your Azure resources.
 
