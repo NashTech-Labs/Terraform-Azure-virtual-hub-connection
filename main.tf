@@ -1,3 +1,16 @@
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.0"
+    }
+  }
+  required_version = ">= 0.13"
+}
+
+provider "azurerm" {
+  features {}
+}
 resource "azurerm_virtual_hub_connection" "vhub_connection" {
   name                      = var.connection_name
   virtual_hub_id            = var.vhub_id
